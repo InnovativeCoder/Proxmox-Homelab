@@ -13,12 +13,11 @@ Creating a data center for the web services project, so as to host it on-prem in
     - IOMMU turned on, as this will help hardware sharing for the VMs and clusters.
     - Add a zfs share for backups.
     - Create backup and do an initial backup.
-  
-
-
+    - Creating NIC Teaming and configuring clusters (not a part of my homelab).
+    - 
 
 ## TODO:
--------
+
 1. PI database for postgresql using HDD(no money for SSD, too much broke :) )
 2. Incremental and differential backups for DB in NFS on proxmox.
 3. Support for logs
