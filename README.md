@@ -12,7 +12,7 @@ Creating a data center for the web services project, so as to host it on-prem in
     - Turning disks into partition to make them RAID 10 zfs, for more redundancy.
     - IOMMU turned on, as this will help hardware sharing for the VMs and clusters.
     - Add a zfs share for backups.
-    - 
+    - Create backup and do an initial backup.
   
 
 
