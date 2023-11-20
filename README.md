@@ -10,4 +10,11 @@ Creating a data center for the web services project, so as to host it on-prem in
     - Make sure to update debian before creating any VMs.
     - Turn on the proxmox unstable updates for non production mode.
     - Turning disks into partition to make them RAID 10 zfs, for more redundancy.
-    - 
+    - IOMMU turned on, as this will help hardware sharing for the VMs and clusters.
+  
+
+
+
+## TODO:
+-------
+1. PI database for postgresql using HDD(no money for SSD, too much broke :) )
