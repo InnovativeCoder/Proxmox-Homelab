@@ -18,3 +18,4 @@ Creating a data center for the web services project, so as to host it on-prem in
 ## TODO:
 -------
 1. PI database for postgresql using HDD(no money for SSD, too much broke :) )
+2. Incremental and differential backups for DB.
